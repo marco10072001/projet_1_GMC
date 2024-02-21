@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="churtcup icon" href="#">
+    <title>Projet_GMC</title>
+</head>
+<body>
+    <!-- Barre de navigation -->
+    <nav>
+        <ul>
+            <li><a href="#accueil">Accueil</a></li>
+            <li><a href="#a-propos">À propos</a></li>
+            <li><a href="#travail">Travail</a></li>
+            <li><a href="#cv">CV</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    <!-- Section À propos -->
+    <section id="apropos">
+        <h1>À propos</h1>
+        <div>
+            <h6 class="title">Marc-Aurel KOUAME</h6>
+            <p class="subtitle">Developer full-stack</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident, pariatur, aperiam aut autem voluptas odit. Odio ducimus delectus totam sed aliquam sequi praesentium mollitia, illum repudiandae quidem quod, magni magnam.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim, eius, nam. Quo praesentium qui temporibus voluptatum, facilis aliquid eligendi fugiat beatae neque inventore non. Laborum repellendus consequatur ullam voluptatum asperiores.</p>                 
+        </div>
+    </section>
+
+    <!-- Section Travail -->
+    <section id="travail">
+        <h1>Travail</h1>
+        <div class="gallery" style="float: left;">
+            <img src="images/Projet.png" width="300" height="300">
+          </a>
+          <div class="desc">Projet 1</div>
+        </div>
+        
+        <div class="gallery"style="float: left;">
+            <img src="images/img1.png" width="300" height="300">
+          </a>
+          <div class="desc">Projet 2</div>
+        </div>
+        
+        <div class="gallery"style="float: left;">
+            <img src="images/Projet.png" width="300" height="300">
+          </a>
+          <div class="desc">Projet 3</div>
+        </div>
+    </section>
+
+    <!-- Section CV -->
+    <section id="cv">
+        <h1>CV</h1>
+        <div>
+            <h3> Pour plus d'information telechargé mon CV</h3>
+            <button class="btn_cv"><a href="CV_KOUAME Marc-Aurel (1).pdf" download="CV_KOUAME Marc-Aurel.pdf">download me</a></button>  
+      </div>
+    </section>
+
+    <!-- Section Contact -->
+    <section id="contact">
+        <h1>Contact</h1>
+        <!-- Utilisation d'un formulaire HTML pour la section Contact -->
+        <form>
+            <label for="nom">Nom :</label>
+            <input type="text" id="nom" name="nom" required>
+            <label for="email">Email :</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message :</label>
+            <textarea id="message" name="message" required></textarea>
+            <input type="submit" value="Envoyer">
+        </form>
+    </section>
+    <!-- Pied de page -->
+    <footer>
+        <p>&copy; 2024 Mon Portfolio. Tous droits réservés.</p>
+    </footer>
+</body>
+</html>
